@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 int a,b,c,d;
 clrscr();
@@ -25,5 +25,5 @@ printf("%d is greatest number:\n",d);
 printf(" all numbers are same");
 	else if (a=b=c=d==0)
 printf("this is zero");
-getch();
+return 0;
 }
